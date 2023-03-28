@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css" />
+  <link rel="stylesheet" href="./aos/dist/aos.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Muhiddin</title>
+</head>
+
+<body>
+  <!-- Loader-->
+  <div class="loading">
+    <div class="main">
+      <div class="dot">
+        <div class="dot2"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar-->
+  <nav id="nav" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">M.Ozodxo'jayev</a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button onclick="navBack()" class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#homee">Boshlang'ich</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Bilimlarim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portf">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#abo">Men haqimda</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home-->
+  <section id="homee" class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="titles">
+            <h3>Assalomu alaykum hush kelibsiz !</h3>
+            <p>Quyida portfolio bo'limlari bilan tanishasiz...</p>
+            <div class="button">
+              <a href="#abo">Men haqimda!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services-->
+  <section id="servi" class="services">
+    <div class="container">
+      <h3 class="text-center1">Servis qismi</h3>
+      <p class="text-center">
+        <i>Servis bo'limi foydalanuvchiga ko'plab qulayliklar yarata oladi.</i>
+      </p>
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-header">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="card-body">
+              <h3>Savdo bo'limi</h3>
+              <p>
+                Odatda web sahifalarning Services qismida sozlamalar
+                bo'limlari, ro'yxatlari va boshqa ma'lumotlar bo'ladi...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-header">
+              <i class="fas fa-laptop"></i>
+            </div>
+            <div class="card-body">
+              <h3>Qo'shimcha dasturlar</h3>
+              <p>
+                Odatda web sahifalarning Services qismida sozlamalar
+                bo'limlari, ro'yxatlari va boshqa ma'lumotlar bo'ladi...
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
+          <div class="card">
+            <div class="card-header">
+              <i id="ozga" class="fas fa-lock"></i>
+            </div>
+            <div class="card-body">
+              <h3>Xavfsiz bo'limi</h3>
+              <p>
+                Odatda web sahifalarning Services qismida sozlamalar
+                bo'limlari, ro'yxatlari va boshqa ma'lumotlar bo'ladi...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <p id="my-skills">Bilimlarim</p>
+    <div class="skill-container">
+      <div class="first-row">
+        <ul>
+          <li>
+            <img src="images/icon-html5.png" alt="img-html" />
+            <p>HTML 5</p>
+          </li>
+          <li>
+            <img src="images/icon-css.png" alt="img-css" />
+            <p>CSS 3</p>
+          </li>
+          <li id="bootstrap-none">
+            <img src="images/icon-bootstrap.png" alt="img-JS" />
+            <p>Bootstrap</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="second-row">
+        <ul>
+          <li>
+            <img src="images/icon-js.png" alt="img-html" />
+            <p>JavaScript</p>
+          </li>
+          <li>
+            <img src="images/react-icon.png" alt="img-html" />
+            <p>React.js</p>
+          </li>
+          <!-- <li>
+              <img src="images/redux-icon.png" alt="img-css" />
+              <p>Redux</p>
+            </li> -->
+        </ul>
+      </div>
+
+      <div class="third-row">
+        <ul>
+          <li>
+            <img src="images/icon-bootstrap.png" alt="img-JS" />
+            <p>Bootstrap</p>
+          </li>
+          <li>
+            <img src="images/icon-js.png" alt="img-html" />
+            <p>JavaScript</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="fourth-row">
+        <ul>
+          <li>
+            <img src="images/react-icon.png" alt="img-html" />
+            <p>React.js</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio-->
+  <section id="portf" class="portfolio">
+    <div class="container">
+      <h3 class="text-center">Portfolio qismi</h3>
+      <p class="text-center">
+        <i id="poo1">Portfolio bo'limida amaliy ishlarim bilan tanishasiz.</i>
+      </p>
+
+      <div class="row mt-5">
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" id="mobile-portfolio">
+          <div class="card">
+            <div class="card-header">
+              <div class="overlay">
+                <h4>Project name</h4>
+                <p>
+                  Project description ! (Ya'ni proekt haqida) Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Deserunt,
+                  magnam.
+                </p>
+              </div>
+              <img src="./images/stairmovie2.PNG" alt="portfolio img" />
+            </div>
+          </div>
+          <a href="https://stairmovie1.netlify.app" id="site-name">Stair Movie</a>
+        </div>
+
+        <div class="col-md-4" data-aos="flip-down" data-aos-duration="1000" id="mobile-portfolio">
+          <div class="card">
+            <div class="card-header">
+              <div class="overlay">
+                <h4>Project name</h4>
+                <p>
+                  Project description ! (Ya'ni proekt haqida) Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Deserunt,
+                  magnam.
+                </p>
+              </div>
+              <img src="images/sayr-img.PNG" alt="portfolio-img" />
+            </div>
+          </div>
+          <a href="https://sayruz1.netlify.app" id="site-name">Sayr.uz</a>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" id="mobile-portfolio">
+          <div class="card">
+            <div class="card-header">
+              <div class="overlay">
+                <h4>Project name</h4>
+                <p>
+                  Project description ! (Ya'ni proekt haqida) Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Deserunt,
+                  magnam.
+                </p>
+              </div>
+              <img src="images/tours-img.PNG" alt="portfolio img" />
+            </div>
+          </div>
+          <a href="https://tours88.netlify.app" id="site-name">Tours App</a>
+        </div>
+      </div>
+
+      <div class="row mt-4" id="portfolio-next">
+        <div class="col-md-4" data-aos="fade-up-right" data-aos-duration="1200">
+          <div class="card">
+            <div class="card-header">
+              <div class="overlay">
+                <h4>Project name</h4>
+                <p>
+                  Project description ! (Ya'ni proekt haqida) Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Deserunt,
+                  magnam.
+                </p>
+              </div>
+              <img src="images/ras/da.jpg" alt="portfolio img" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1200">
+          <div class="card">
+            <div class="card-header">
+              <div class="overlay">
+                <h4>Project name</h4>
+                <p>
+                  Project description ! (Ya'ni proekt haqida) Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Deserunt,
+                  magnam.
+                </p>
+              </div>
+              <img src="images/ras/da.jpg" alt="portfolio img" />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up-left" data-aos-duration="1200">
+          <div class="card">
+            <div class="card-header">
+              <div class="overlay">
+                <h4>Project name</h4>
+                <p>
+                  Project description ! (Ya'ni proekt haqida) Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Deserunt,
+                  magnam.
+                </p>
+              </div>
+              <img src="images/ras/da.jpg" alt="portfolio img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About-->
+  <section id="abo" class="about">
+    <div class="container">
+      <h3 class="text-center" id="abo1">Men haqimda</h3>
+      <p class="text-center">
+        <i id="abo2">Ushbu bo'limda esa o'zim haqimda kerakli ma'lumotlarni
+          joylaganman.</i>
+      </p>
+      <div class="row">
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+          <!-- img ni ichida class="w-75" qilib bootstrap clasidan foydalanib rasmga o'lcham berish mumkin -->
+          <img src="images/muhiddin.jpg" alt="Me-picture" id="men" />
+          <img src="images/muhiddin-mobile1.PNG" alt="Mobile-picture" id="men-mobile" />
+        </div>
+        <div id="colmd" class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
+          <div class="info">
+            <h4>Qisqacha o'zim haqimda ...</h4>
+            <p>
+              Ismim Muhiddin. Toshkent viloyati Chinoz tumanida
+              tug'ilganman. Toshkent Axborot Texnologiyalari Universiteti
+              Qarshi filialida Dasturiy Injiniring yo'nalishida tahsil
+              olganman. HTML, CSS, JavaScript, Bootstrap va React.js texnologiyalarini 
+              o'rganganman.
+                        <!-- Bir yildan buyon Frontend dasturlash bilan mustaqil
+              ravishda shug'ullanib kelaman. -->
+              <!-- Hozirda Qashqadaryo Viloyati Statistika Boshqarmasida
+                yetakchi muhandis - dasturchi lavozimida ishlamoqdaman... -->
+            </p>
+            <ul class="main">
+              <li>
+                <span class="sp1">
+                  <i class="fas fa-user"></i>
+                  Name:
+                </span>
+                <span class="sp2" id="ism"> Muhiddin Ozodxo'jayev </span>
+              </li>
+              <li>
+                <span class="sp1">
+                  <i class="fas fa-university"></i>
+                  Study:
+                </span>
+                <span class="sp2" id="oqi"> TUIT Karshi branch </span>
+              </li>
+              <li>
+                <span class="sp1">
+                  <i class="fas fa-chalkboard-teacher"></i>
+                  Speciality:
+                </span>
+                <span class="sp2" id="soh"> Front end developer </span>
+              </li>
+              <li>
+                <span class="sp1">
+                  <i class="fas fa-calendar-alt"></i>
+                  Birthday:
+                </span>
+                <span class="sp2" id="yil"> 1995-yil 25-noyabr </span>
+              </li>
+              <li>
+                <span class="sp1">
+                  <i class="fas fa-map-marker-alt"></i>
+                  Address:
+                </span>
+                <span class="sp2" id="joy"> Tashkent, Uzbekistan </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer-->
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4" id="owner">
+          <div class="copyright">
+            <p>
+              Website tuzuvchi Muhiddin Ozodxo'jayev
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+            </p>
+            <p id="email"><img src="images/email.png" alt="email-img"> : muhiddinozod33@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="social-networks">
+            <a href="#" class="networks">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="networks">
+              <!-- <i class="fab fa-instagram"></i> -->
+              <img src="images/linkedin.png" alt="linkedIn-img" id="linkedIn">
+            </a>
+            <a href="https://t.me/muhiddin_ozod" class="networks">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="#" class="networks">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4" id="sur">
+          <p class="foo">
+            Quyidagi telefon raqamlari orqali men bilan bog'lanishingiz mumkin !
+            +998 979065262
+            +998 993153459
+            <!-- Ushbu portfolio Javohir Hakimovning video darslari yordamida
+              tayyorlangan. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="./Bootstrap/js/popper.min.js"></script>
+  <script src="./Bootstrap/js/bootstrap.min.js"></script>
+  <script src="./aos/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: "ease-in-out-sine",
+    });
+  </script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

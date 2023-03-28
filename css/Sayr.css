@@ -1,0 +1,137 @@
+body {
+    background-color: #E5EBC5;
+}
+/* colors */
+
+:root{
+    --colorDefault: #ffff00;
+    --whiteColor: #ffffff;
+}
+
+
+/*home section*/
+
+.home {
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+.home .container-fluid {
+    border-radius: 10px;
+}
+
+
+/* Navbar section*/
+
+.navbar {
+    background-color: #509854;
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    padding-left: 4rem;
+    color: var(--colorDefault)!important;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav {
+    margin-left: 55rem ; 
+}
+.navbar-nav li {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link {
+    padding: 0;
+    color: var(--whiteColor)!important;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+.nav-link:hover {
+    color: var(--colorDefault)!important;
+}
+
+/* bodybox section */
+
+.bodybox .container {
+    background-color: #FEFEFC;
+    border-radius: 20px;
+}
+.bodybox #belgi {
+    width: 330px;
+    height: 130px;
+}
+.comm {
+    padding: 2rem 0 0 3rem;
+}
+.comm1 {
+    padding: 2rem 3rem 0 0;
+}
+.yangi1 {
+    padding: 2rem 0 0 3rem;
+}
+.coma {
+    padding: 2rem 3rem 0 0;
+}
+.yange {
+    padding: 2rem 0 0 3rem;
+}
+.nam {
+    padding: 2rem 3rem 0 0;
+}
+.yans {
+    padding: 2rem 0 0 3rem;
+}
+.keyin {
+    padding: 2rem 3rem 0 0;
+}
+.yana {
+    padding: 2rem 0 0 3rem;
+}
+.keyingi {
+    padding: 2rem 3rem 0 0;
+}
+
+/* Footer section*/
+
+.footer {
+    background-color: #509854;
+}
+.social-networks a {
+    text-decoration: none;
+    margin: 5px;
+}
+.social-networks a i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    color: #11559e;
+    background-color: #ffff00;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 40px;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+}
+.footer .col-md-4 {
+    text-align: center;
+}
+.social-networks a i:hover {
+    background-color: #ffffff;
+    color: #509854;
+}
+.footer .copyright p {
+    color: #ffffff; 
+}
+.foo {
+    color: #ffffff; 
+}
+
+
